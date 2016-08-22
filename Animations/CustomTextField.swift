@@ -28,11 +28,11 @@ class CustomTextField: UITextField {
     
     func toggleVisibility(frameWidth: CGFloat) {
         containerWidth = frameWidth
-        isVisible ? moveInFromLeft() : moveInFromRight()
+        isVisible ? removeFromScreen() : bringOnToScreen()
         isVisible = !isVisible
     }
     
-    func moveInFromLeft(completion: ((readyForImage: Bool) -> Void)? = nil) {
+    func removeFromScreen(completion: ((readyForImage: Bool) -> Void)? = nil) {
         UIView.animateWithDuration(0.4, animations: {
             self.frame = CGRectMake(self.originalFrame.origin.x + 400, self.originalFrame.origin.y, self.containerWidth - 16, self.originalFrame.height)
             self.alpha = 0.0
@@ -42,7 +42,7 @@ class CustomTextField: UITextField {
         }
     }
     
-    func moveInFromRight(completion: ((readyForImage: Bool) -> Void)? = nil) {
+    func bringOnToScreen(completion: ((readyForImage: Bool) -> Void)? = nil) {
         UIView.animateWithDuration(0.4, animations: {
             self.frame = CGRectMake(self.originalFrame.origin.x, self.originalFrame.origin.y, self.containerWidth - 16 , self.originalFrame.height)
             self.alpha = 0.3
