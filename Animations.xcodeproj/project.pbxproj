@@ -58,16 +58,40 @@
 		B43963CF1D616E3000AFBA23 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				BC9FFF541D6B5734001E2340 /* Model */,
+				BC9FFF521D6B571E001E2340 /* View */,
+				BC9FFF531D6B5725001E2340 /* Controller */,
 				B43963D01D616E3000AFBA23 /* AppDelegate.swift */,
-				B43963D21D616E3000AFBA23 /* ViewController.swift */,
-				B43963E81D625A4D00AFBA23 /* CustomImageView.swift */,
-				B43963E61D6227F200AFBA23 /* CustomTextField.swift */,
 				B43963D41D616E3000AFBA23 /* Main.storyboard */,
 				B43963D71D616E3000AFBA23 /* Assets.xcassets */,
 				B43963D91D616E3000AFBA23 /* LaunchScreen.storyboard */,
 				B43963DC1D616E3000AFBA23 /* Info.plist */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		BC9FFF521D6B571E001E2340 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B43963D21D616E3000AFBA23 /* ViewController.swift */,
+				B43963E81D625A4D00AFBA23 /* CustomImageView.swift */,
+				B43963E61D6227F200AFBA23 /* CustomTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BC9FFF531D6B5725001E2340 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BC9FFF541D6B5734001E2340 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +320,7 @@
 				B43963E11D616E3000AFBA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
