@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Basic Animations
 ===================
  1. Show students the project so they can see what they will be building.
@@ -7,3 +8,7 @@ Basic Animations
  5. Write out the implementations of the methods. 
  6. Call the animation methods from the ViewController.swift file. 
  7. Make sure that all the students projects are working.
+=======
+# Basic-Animations-With-Protocol-Extensions
+Initial project created by Michael Mecham. My goal here is to add the animations to a Protocol Extension
+>>>>>>> 8a3d3cf6a29fad835c0387453b1aac5c5fb2191c
